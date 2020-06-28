@@ -6,6 +6,6 @@ def line(katz_deli)
     end
     puts phrase
   else
-    puts "The line is currently empty.
+    puts "The line is currently empty."
   end
 end
