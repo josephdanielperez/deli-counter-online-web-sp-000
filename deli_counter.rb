@@ -11,7 +11,7 @@ def take_a_number(katz_deli)
   counter = 1
   katz_deli.each do |name|
     queue << "#{counter}. #{name}"
-    return "Welcome, #{name}. You are #{counter} in line."
+    puts "Welcome, #{name}. You are #{counter} in line."
     counter += 1
   end
 end
